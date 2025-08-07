@@ -3,7 +3,10 @@
   "workspaces": {
     "": {
       "dependencies": {
+        "@types/base-64": "^1.0.2",
+        "base-64": "^1.0.0",
         "fp-ts": "^2.16.10",
+        "ts-adt": "^2.1.2",
       },
       "devDependencies": {
         "@biomejs/biome": "2.1.3",
@@ -29,6 +32,12 @@
 
     "@biomejs/cli-win32-x64": ["@biomejs/cli-win32-x64@2.1.3", "", { "os": "win32", "cpu": "x64" }, "sha512-dxy599q6lgp8ANPpR8sDMscwdp9oOumEsVXuVCVT9N2vAho8uYXlCz53JhxX6LtJOXaE73qzgkGQ7QqvFlMC0g=="],
 
+    "@types/base-64": ["@types/base-64@1.0.2", "", {}, "sha512-uPgKMmM9fmn7I+Zi6YBqctOye4SlJsHKcisjHIMWpb2YKZRc36GpKyNuQ03JcT+oNXg1m7Uv4wU94EVltn8/cw=="],
+
+    "base-64": ["base-64@1.0.0", "", {}, "sha512-kwDPIFCGx0NZHog36dj+tHiwP4QMzsZ3AgMViUBKI0+V5n4U0ufTCUMhnQ04diaRI8EX/QcPfql7zlhZ7j4zgg=="],
+
     "fp-ts": ["fp-ts@2.16.10", "", {}, "sha512-vuROzbNVfCmUkZSUbnWSltR1sbheyQbTzug7LB/46fEa1c0EucLeBaCEUE0gF3ZGUGBt9lVUiziGOhhj6K1ORA=="],
+
+    "ts-adt": ["ts-adt@2.1.2", "", {}, "sha512-UD0lr7eyiBjxogQjb1xMCjF7skrnxGZLNm4iROeU3ky5tJzXN0yQkkS4DfNGfM4RaUGMhgyrzf2wUynqK8AdWQ=="],
   }
 }
